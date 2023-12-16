@@ -1074,8 +1074,48 @@ progress {
 }
 
 .g-5,
-.gy-5 {
+.gx-5 {
     --bs-gutter-y: 3rem
+}
+
+.g-6,
+.gy-6 {
+    --bs-gutter-x: 4rem
+}
+
+.g-6,
+.gy-6 {
+    --bs-gutter-y: 4rem
+}
+
+.g-7,
+.gy-7 {
+    --bs-gutter-x: 5rem
+}
+
+.g-7,
+.gy-7 {
+    --bs-gutter-y: 5rem
+}
+
+.g-8,
+.gy-8 {
+    --bs-gutter-x: 6rem
+}
+
+.g-8,
+.gy-8 {
+    --bs-gutter-y: 6rem
+}
+
+.g-9,
+.gy-9 {
+    --bs-gutter-x: 7rem
+}
+
+.g-9,
+.gy-9 {
+    --bs-gutter-y: 7rem
 }
 
 @media (min-width:576px) {
@@ -8987,6 +9027,12 @@ fieldset:disabled .btn {
 .mt-8 {
     margin-top: 6rem !important
 }
+.mt-9 {
+    margin-top: 7rem !important
+}
+.mt-10 {
+    margin-top: 8rem !important
+}
 
 .mt-auto {
     margin-top: auto !important
@@ -9099,7 +9145,22 @@ fieldset:disabled .btn {
 .p-5 {
     padding: 3rem !important
 }
+.p-6 {
+    padding: 4rem !important
+}
+.p-7 {
+    padding: 5rem !important
+}
+.p-8 {
+    padding: 6rem !important
+}
+.p-9 {
+    padding: 7rem !important
+}
 
+.p-10 {
+    padding: 8rem !important
+}
 .px-0 {
     padding-right: 0 !important;
     padding-left: 0 !important
