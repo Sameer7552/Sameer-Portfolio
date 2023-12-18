@@ -13,7 +13,7 @@ body {
     background: linear-gradient(#f0f0f0,#608AF5);
     height: 150px;
     width: 150px;
-    transform: translate(10%,10rem);
+    transform: translate(5rem,10rem);
     z-index: -1;
     filter: blur(50px);
 }
@@ -24,7 +24,7 @@ body {
     background: linear-gradient(#f0f0f0,#608AF5);
     height: 150px;
     width: 150px;
-    transform: translate(20%,35rem);
+    transform: translate(60rem,35rem);
     z-index: -1;
     filter: blur(50px);
 }
@@ -35,7 +35,7 @@ body {
     background: linear-gradient(#f0f0f0,#608AF5);
     height: 150px;
     width: 150px;
-    transform: translate(30%,70rem);
+    transform: translate(20rem,70rem);
     z-index: -1;
     filter: blur(50px);
 }
@@ -46,7 +46,7 @@ body {
     background: linear-gradient(#f0f0f0,#608AF5);
     height: 150px;
     width: 150px;
-    transform: translate(40%,90rem);
+    transform: translate(70rem,110rem);
     z-index: -1;
     filter: blur(50px);
 }
@@ -57,7 +57,7 @@ body {
     background: linear-gradient(#f0f0f0,#608AF5);
     height: 150px;
     width: 150px;
-    transform: translate(50%,130rem);
+    transform: translate(10rem,160rem);
     z-index: -1;
     filter: blur(50px);
 }
@@ -191,17 +191,45 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.bottom-txt{
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-    color: white;
-    position: absolute;
-    top: 80%;
-    left: 30%;
+
+.blob-div{
+    cursor: pointer;
 }
 
+.bottom-txt{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+.blob-div:hover {
+    animation: heart 0.6s linear infinite;
+}
+@keyframes heart {
+    0% {
+        transform: scale(1.00);
+    }
 
+    25% {
+        transform: scale(0.97);
+    }
+
+    50% {
+        transform: scale(0.92);
+    }
+
+    75% {
+        transform: scale(0.97);
+    }
+
+    100% {
+        transform: scale(1.00);
+    }
+
+}
 
 @media only screen and (max-width: 1400px) {
     .contact-btn {
@@ -222,6 +250,22 @@ body {
         font-size: 35px;
         line-height: 60px;
     }
+    .container .ball-1{
+        transform: translate(5rem,10rem);
+    }
+    .container .ball-2{
+        transform: translate(30rem,35rem);
+    }
+    .container .ball-3{
+        transform: translate(20rem,70rem);
+    }
+    .container .ball-4{
+        width: 150px;
+        transform: translate(50rem,110rem);
+    }
+    .container .ball-5{
+        transform: translate(10rem,140rem);
+    }
 
 
 }
@@ -234,6 +278,23 @@ body {
 
     .nav-txt {
         font-size: 20px;
+    }
+    
+    .container .ball-1{
+        transform: translate(5rem,10rem);
+    }
+    .container .ball-2{
+        transform: translate(40rem,30rem);
+    }
+    .container .ball-3{
+        transform: translate(20rem,70rem);
+    }
+    .container .ball-4{
+        width: 150px;
+        transform: translate(50rem,100rem);
+    }
+    .container .ball-5{
+        transform: translate(10rem,130rem);
     }
 
 
@@ -278,6 +339,26 @@ body {
         font-size: 22px;
         line-height: 30px;
     }
+    .bottom-txt{
+        font-size: 30px;
+    }
+    
+    .container .ball-1{
+        transform: translate(5rem,10rem);
+    }
+    .container .ball-2{
+        transform: translate(20rem,35rem);
+    }
+    .container .ball-3{
+        transform: translate(10rem,70rem);
+    }
+    .container .ball-4{
+        width: 150px;
+        transform: translate(30rem,110rem);
+    }
+    .container .ball-5{
+        transform: translate(10rem,140rem);
+    }
 
 }
 
@@ -306,6 +387,10 @@ body {
 
     .none-1-2 {
         display: block;
+    }
+    
+    .bottom-txt{
+        font-size: 20px;
     }
 
 }
@@ -352,6 +437,27 @@ body {
         font-size: 18px;
         line-height: 20px;
         padding: 0 5%;
+    }
+    
+    .bottom-txt{
+        font-size: 15px;
+    }
+    
+    .container .ball-1{
+        transform: translate(2rem,10rem);
+    }
+    .container .ball-2{
+        transform: translate(8rem,35rem);
+    }
+    .container .ball-3{
+        transform: translate(5rem,70rem);
+    }
+    .container .ball-4{
+        width: 150px;
+        transform: translate(1rem,110rem);
+    }
+    .container .ball-5{
+        transform: translate(6rem,140rem);
     }
 
 }
